@@ -1,0 +1,228 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: #333;
+}
+
+.button a, .second-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button a:hover, .second-button a:hover {
+    background-color: #0056b3;
+}
+
+/* Main Section Styles */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+/* Services Section Styles */
+.service-container {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-header .heading h1 {
+    font-size: 2em;
+}
+
+.service-header .para p {
+    font-size: 1.1em;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.service-box .icon img {
+    max-width: 60px;
+}
+
+.service-box h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.service-box p {
+    color: #666;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* Working Process Section Styles */
+.working-process {
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.working-process .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #333;
+    background-color: #e9ecef;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0056b3;
+    background-color: #d3d3d3;
+}
+
+.accordion-body {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.contact-us .heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-us form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us label {
+    font-weight: bold;
+}
+
+.contact-us input[type="text"], .contact-us input[type="email"], .contact-us textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-us input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact-us input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.contact-bg {
+    border-radius: 10px;
+}
